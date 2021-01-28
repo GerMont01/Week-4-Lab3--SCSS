@@ -1,0 +1,17 @@
+header, footer {
+    @if $mainColor == rgb(2, 0, 34){
+        color: $secColor;
+    } 
+    @else {
+        color: $mainColor;
+    }
+}
+
+section {
+    @if $secColor == rgb(163, 159, 223){
+        color: $mainColor;
+    } 
+    @else {
+        color: $secColor;
+    }
+}
